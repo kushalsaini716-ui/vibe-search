@@ -1,0 +1,283 @@
+[
+    {
+        "id": 1,
+        "title": "Blade Runner 2049",
+        "genre": "Sci-Fi",
+        "release_year": 2017,
+        "rating": "R",
+        "poster":"",
+        "short_plot_summary": "A young blade runner discovers a long-buried secret that leads him to track down former blade runner Rick Deckard. Set in a bleak, neon-soaked dystopian future with stunning visuals and a meditative, slow-burn pace."
+    },
+    {
+        "id": 2,
+        "title": "The Princess Bride",
+        "genre": "Adventure/Romance",
+        "release_year": 1987,
+        "rating": "PG",
+        "short_plot_summary": "A grandfather reads a fairy-tale adventure to his sick grandson about a farm boy who becomes a pirate, rescues his true love, and battles villains. Witty, wholesome, and endlessly quotable."
+    },
+    {
+        "id": 3,
+        "title": "Raiders of the Lost Ark",
+        "genre": "Adventure/Action",
+        "release_year": 1981,
+        "rating": "PG",
+        "short_plot_summary": "Archaeologist Indiana Jones races against Nazi agents to find the legendary Ark of the Covenant, packed with treasure hunting, exotic locales, and non-stop action."
+    },
+    {
+        "id": 4,
+        "title": "Spirited Away",
+        "genre": "Animation/Fantasy",
+        "release_year": 2001,
+        "rating": "PG",
+        "short_plot_summary": "A sulky girl wanders into a spirit world and must work in a magical bathhouse to free her parents who were turned into pigs. Imaginative, gentle, and emotionally resonant."
+    },
+    {
+        "id": 5,
+        "title": "Mad Max: Fury Road",
+        "genre": "Action",
+        "release_year": 2015,
+        "rating": "R",
+        "short_plot_summary": "In a post-apocalyptic wasteland, a woman rebels against a tyrannical ruler in a high-octane chase through the desert."
+    },
+    {
+        "id": 6,
+        "title": "When Harry Met Sally",
+        "genre": "Romance/Comedy",
+        "release_year": 1989,
+        "rating": "R",
+        "short_plot_summary": "Two friends debate whether men and women can truly be just friends over the span of a decade, eventually falling in love."
+    },
+    {
+        "id": 7,
+        "title": "The Shining",
+        "genre": "Horror",
+        "release_year": 1980,
+        "rating": "R",
+        "short_plot_summary": "A writer slowly goes insane while serving as caretaker of an isolated hotel."
+    },
+    {
+        "id": 8,
+        "title": "Interstellar",
+        "genre": "Sci-Fi",
+        "release_year": 2014,
+        "rating": "PG-13",
+        "short_plot_summary": "A team of explorers travel through a wormhole in space to ensure humanity's survival."
+    },
+    {
+        "id": 9,
+        "title": "Amélie",
+        "genre": "Romance/Comedy",
+        "release_year": 2001,
+        "rating": "R",
+        "short_plot_summary": "A whimsical Parisian waitress secretly improves the lives of people around her."
+    },
+    {
+        "id": 10,
+        "title": "Parasite",
+        "genre": "Thriller/Drama",
+        "release_year": 2019,
+        "rating": "R",
+        "short_plot_summary": "A poor family schemes to become employed by a wealthy family."
+    },
+    {
+        "id": 11,
+        "title": "E.T. the Extra-Terrestrial",
+        "genre": "Family/Sci-Fi",
+        "release_year": 1982,
+        "rating": "PG",
+        "short_plot_summary": "A lonely boy befriends a stranded alien and helps him return home."
+    },
+    {
+        "id": 12,
+        "title": "The Grand Budapest Hotel",
+        "genre": "Comedy/Drama",
+        "release_year": 2014,
+        "rating": "R",
+        "short_plot_summary": "A legendary hotel concierge and his lobby boy become involved in a stolen painting mystery."
+    },
+    {
+        "id": 13,
+        "title": "John Wick",
+        "genre": "Action/Thriller",
+        "release_year": 2014,
+        "rating": "R",
+        "short_plot_summary": "A retired assassin seeks vengeance after gangsters kill his puppy."
+    },
+    {
+        "id": 14,
+        "title": "Coco",
+        "genre": "Animation/Family",
+        "release_year": 2017,
+        "rating": "PG",
+        "short_plot_summary": "A young boy travels to the Land of the Dead to find his ancestor."
+    },
+    {
+        "id": 15,
+        "title": "The Big Lebowski",
+        "genre": "Comedy",
+        "release_year": 1998,
+        "rating": "R",
+        "short_plot_summary": "A laid-back slacker gets involved in a bizarre kidnapping plot."
+    },
+    {
+        "id": 16,
+        "title": "Arrival",
+        "genre": "Sci-Fi/Drama",
+        "release_year": 2016,
+        "rating": "PG-13",
+        "short_plot_summary": "A linguist tries to communicate with mysterious alien visitors."
+    },
+    {
+        "id": 17,
+        "title": "Knives Out",
+        "genre": "Mystery/Comedy",
+        "release_year": 2019,
+        "rating": "PG-13",
+        "short_plot_summary": "A detective investigates the suspicious death of a wealthy novelist."
+    },
+    {
+        "id": 18,
+        "title": "Drive",
+        "genre": "Thriller/Crime",
+        "release_year": 2011,
+        "rating": "R",
+        "short_plot_summary": "A stunt driver moonlights as a getaway driver in Los Angeles."
+    },
+    {
+        "id": 19,
+        "title": "Encanto",
+        "genre": "Animation/Family",
+        "release_year": 2021,
+        "rating": "PG",
+        "short_plot_summary": "A Colombian family with magical gifts faces the loss of their powers."
+    },
+    {
+        "id": 20,
+        "title": "No Country for Old Men",
+        "genre": "Thriller/Crime",
+        "release_year": 2007,
+        "rating": "R",
+        "short_plot_summary": "A hunter finds drug money and is pursued by a ruthless assassin."
+    },
+    {
+        "id": 21,
+        "title": "The Dark Knight",
+        "genre": "Action/Crime",
+        "release_year": 2008,
+        "rating": "PG-13",
+        "short_plot_summary": "Batman faces the Joker, a chaotic criminal mastermind who plunges Gotham City into anarchy. Dark, intense, and morally complex."
+    },
+    {
+        "id": 22,
+        "title": "The Martian",
+        "genre": "Sci-Fi/Adventure",
+        "release_year": 2015,
+        "rating": "PG-13",
+        "short_plot_summary": "An astronaut stranded on Mars must rely on his ingenuity to survive while NASA works to bring him home."
+    },
+    {
+        "id": 23,
+        "title": "Jurassic Park",
+        "genre": "Adventure/Sci-Fi",
+        "release_year": 1993,
+        "rating": "PG-13",
+        "short_plot_summary": "Scientists clone dinosaurs for a theme park, but the creatures escape control leading to thrilling chaos."
+    },
+    {
+        "id": 24,
+        "title": "The Social Network",
+        "genre": "Drama",
+        "release_year": 2010,
+        "rating": "PG-13",
+        "short_plot_summary": "The story of the founding of Facebook and the legal battles that followed its explosive growth."
+    },
+    {
+        "id": 25,
+        "title": "Inception",
+        "genre": "Sci-Fi/Thriller",
+        "release_year": 2010,
+        "rating": "PG-13",
+        "short_plot_summary": "A thief who steals corporate secrets through dream-sharing technology must perform the impossible task of planting an idea."
+    },
+    {
+        "id": 26,
+        "title": "La La Land",
+        "genre": "Romance/Musical",
+        "release_year": 2016,
+        "rating": "PG-13",
+        "short_plot_summary": "A jazz musician and aspiring actress fall in love while pursuing their dreams in Los Angeles."
+    },
+    {
+        "id": 27,
+        "title": "The Avengers",
+        "genre": "Action/Sci-Fi",
+        "release_year": 2012,
+        "rating": "PG-13",
+        "short_plot_summary": "Earth's mightiest heroes team up to stop Loki and an alien invasion threatening the planet."
+    },
+    {
+        "id": 28,
+        "title": "Gladiator",
+        "genre": "Action/Drama",
+        "release_year": 2000,
+        "rating": "R",
+        "short_plot_summary": "A Roman general is betrayed and forced into slavery, rising as a gladiator to seek revenge."
+    },
+    {
+        "id": 29,
+        "title": "The Lion King",
+        "genre": "Animation/Adventure",
+        "release_year": 1994,
+        "rating": "G",
+        "short_plot_summary": "A young lion prince flees his kingdom after tragedy but returns to reclaim his rightful place."
+    },
+    {
+        "id": 30,
+        "title": "The Wolf of Wall Street",
+        "genre": "Drama/Comedy",
+        "release_year": 2013,
+        "rating": "R",
+        "short_plot_summary": "A stockbroker rises to immense wealth through corruption and fraud in the financial world."
+    },
+    {
+        "id": 31,
+        "title": "Get Out",
+        "genre": "Horror/Thriller",
+        "release_year": 2017,
+        "rating": "R",
+        "short_plot_summary": "A young Black man uncovers disturbing secrets when he visits his girlfriend's mysterious family."
+    },
+    {
+        "id": 32,
+        "title": "Toy Story",
+        "genre": "Animation/Comedy",
+        "release_year": 1995,
+        "rating": "G",
+        "short_plot_summary": "Toys secretly come to life and embark on adventures when their owner isn't around."
+    },
+    {
+        "id": 33,
+        "title": "The Matrix",
+        "genre": "Sci-Fi/Action",
+        "release_year": 1999,
+        "rating": "R",
+        "short_plot_summary": "A hacker discovers that reality is a simulated world controlled by machines."
+    },
+    {
+        "id": 34,
+        "title": "The Shawshank Redemption",
+        "genre": "Drama",
+        "release_year": 1994,
+        "rating": "R",
+        "short_plot_summary": "Two imprisoned men bond over decades, finding solace and redemption through acts of hope."
+    },
+    {
+        "id": 35,
+        "title": "Black Panther",
+        "genre": "Action/Sci-Fi",
+        "release_year": 2018,
+        "rating": "PG-13",
+        "short_plot_summary": "The king of Wakanda must defend his nation and its powerful resources from enemies."
+    }
+]
