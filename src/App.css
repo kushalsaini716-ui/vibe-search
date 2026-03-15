@@ -1,7 +1,7 @@
 body {
   margin: 0;
   min-height: 100vh;
-  background: linear-gradient(180deg,#2b0000 0%,#1a0000 40%,#000000 100%);
+  background: linear-gradient(180deg, #2b0000 0%, #1a0000 40%, #000000 100%);
   color: wheat;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -39,24 +39,28 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 10px;
   padding: 20px;
   margin: 10px;
 }
 
 .search-input {
-  width: 65%;
-  height: 55px;
+  width: 60%;
+  min-width: 220px;
+  height: 50px;
   border-radius: 16px;
   background: antiquewhite;
-  font-size: 20px;
+  font-size: 18px;
   color: rgb(18, 2, 2);
+  padding-left: 10px;
 }
 
 .search-btn {
   cursor: pointer;
   width: 113px;
-  font-size: 20px;
+  font-size: 18px;
   height: 38px;
+  padding: 0 20px;
   background: rgb(18, 2, 2);
   border-radius: 7px;
   position: relative;
@@ -89,39 +93,91 @@ body {
 
 }
 
-.result{
-  display: flex;
-  flex-wrap: wrap;
+.result {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
   padding: 20px;
+  gap: 20px;
   justify-content: center;
   align-items: center;
 }
-.movie-card{
+
+.movie-card {
   border: 1px solid white;
-  height: 235px;
-    width: 174px;
-    margin: 20px;
-    color: white;
-    background-color: #554c4c;
-    border-radius: 4px;
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    
-    justify-content: center;
-    align-items: center;
-    box-shadow: #2b0000;
+  min-height: 220px;
+  width: 174px;
+  margin: 20px;
+  color: white;
+  background-color: #554c4c;
+  border-radius: 4px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s ease;
+  justify-content: center;
+  align-items: center;
+  box-shadow: #2b0000;
 }
-.scanning{
+
+.movie-card:hover {
+  transform: scale(1.05);
+}
+
+.scanning {
   display: flex;
   justify-content: center;
 }
-.moviecontent{
+
+.moviecontent {
   padding: 0;
   margin: 0;
 }
-.movie-card h3{
+
+.movie-card h3 {
   margin: 35px;
   font-size: 20px;
   color: wheat;
+}
+
+@media (max-width:768px) {
+
+  .VB-heading {
+    font-size: 30px;
+  }
+
+  .search-input {
+    width: 70%;
+    font-size: 16px;
+  }
+
+  .search-btn {
+    font-size: 16px;
+    padding: 0 15px;
+  }
+
+  .movie-card {
+    width: 150px;
+  }
+
+}
+
+@media (max-width:480px) {
+
+  .VB-heading {
+    font-size: 24px;
+  }
+
+  .search-bar {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .search-input {
+    width: 90%;
+  }
+
+  .result {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
 }
