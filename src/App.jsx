@@ -25,7 +25,7 @@ User query: ${response}
 
   const handleSearch = async () => {
     if (!response.trim()) return;
-     if (loading) return;
+    if (loading) return;
 
     setloading(true);
 
@@ -39,8 +39,12 @@ User query: ${response}
       const aiOutput = await model.generateContent(prompt);
 
       const text = aiOutput.response.text();
+      const match = text.match(/\{[\s\S]*\}/); 
+      
+        const validJson = JSON.parse(JSON.stringify(match[0]));
+      
 
-      const filters = JSON.parse(text);
+      const filters = JSON.parse(validJson);
 
       const filtermovies = movies.filter(movie => {
 
@@ -55,7 +59,7 @@ User query: ${response}
               .toLowerCase()
               .includes(keyword.toLowerCase())
           );
-         
+
 
         return matchgenre || keywordmatch;
       });
@@ -99,10 +103,10 @@ User query: ${response}
           placeholder="Describe your mood & Find your movie."
         />
         <button className="search-btn" onClick={handleSearch}>
-          Search 
+          Search
         </button>
       </div>
-      
+
 
       <div className="suggestions">
         {suggestion.map((s, i) => (
@@ -120,9 +124,9 @@ User query: ${response}
       </div>
       <div className="scanning">
         {loading && <p>Scanning library...</p>}
-           {error && <p className="error">{error}</p>}
+        {error && <p className="error">{error}</p>}
       </div>
-      
+
       <div className="result">
 
         {result.map(movie => (
